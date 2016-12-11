@@ -137,6 +137,7 @@ aside {
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #698B69;
+    opacity: 0;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -159,6 +160,7 @@ header {
   /* background-image: url('../img/pepperheader.jpg'); */
   text-align: center;
   color: white;
+  margin-top: 50px;
 }
 header .header-content .header-content-inner img {
   max-width: 50% ;
@@ -188,6 +190,7 @@ header .header-content .header-content-inner p {
 @media (min-width: 768px) {
   header {
     min-height: 100%;
+    margin-top: 0;
   }
   header .header-content {
     position: absolute;
